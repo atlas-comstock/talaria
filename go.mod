@@ -58,6 +58,8 @@ require (
 	gopkg.in/yaml.v2 v2.2.8
 )
 
+require github.com/gorilla/mux v1.8.0
+
 require (
 	github.com/Azure/azure-pipeline-go v0.2.3 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
