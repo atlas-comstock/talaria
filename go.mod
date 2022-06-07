@@ -4,6 +4,7 @@ go 1.17
 
 // should be removed once crphang/orc is up to date with upstream orc
 replace github.com/crphang/orc => github.com/tardunge/orc v0.0.7
+replace github.com/dgraph-io/badger/v3 v3.2103.1 => github.com/atlas-comstock/badger/v3 v3.2103.1-with-arm-fix
 
 require (
 	cloud.google.com/go v0.57.0 // indirect
